@@ -1,0 +1,11 @@
+=responsiveFlexGrid()
+  @each $device in $alldevice
+    @media screen and (min-width: nth($device, 2))
+      .r, .r-no
+        +axis(x,y,#{nth($device, 1)})
+      .c, .c-no
+        +axis(y,x,#{nth($device, 1)})
+      +alignSelf(#{nth($device, 1)})
+      .#{nth($device, 1)}hidden
+        display: none
+      +grid(#{nth($device, 1)})

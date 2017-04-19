@@ -1,0 +1,16 @@
+@import 'var'
+@import 'grid'
+@import 'flexGrid'
+@import 'responsiveFlexGrid'
+
+
+*, *:after, *:before
+  box-sizing: border-box
+
++grid()
+.r, .r-no
+  +axis(x,y)
+.c, .c-no
+  +axis(y,x)
++flexDisplay()
++responsiveFlexGrid()

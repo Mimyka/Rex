@@ -1,0 +1,8 @@
+=grid($prefix: null)
+  .#{$prefix}u
+    flex: 1 1 0%
+  @for $i from 1 through $unit
+    .#{$prefix}u-#{$i}
+      width: ($i/$unit)*100%
+    .#{$prefix}o-#{$i}
+      margin-left: ($i/$unit)*100%

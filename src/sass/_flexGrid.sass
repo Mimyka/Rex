@@ -1,0 +1,48 @@
+=axis($axisA, $axisB, $prefix: null)
+  &.#{$prefix}#{$axisA}-center
+    justify-content: center
+  &.#{$prefix}#{$axisA}-start
+    justify-content: flex-start
+  &.#{$prefix}#{$axisA}-end
+    justify-content: flex-end
+  &.#{$prefix}#{$axisA}-between
+    justify-content: space-between
+  &.#{$prefix}#{$axisA}-around
+    justify-content: space-around
+  &.#{$prefix}#{$axisB}-center
+    align-items: center
+    align-content: center
+  &.#{$prefix}#{$axisB}-start
+    align-items: flex-start
+    align-content: flex-start
+  &.#{$prefix}#{$axisB}-end
+    align-items: flex-end
+    align-content: flex-end
+  &.#{$prefix}#{$axisB}-between
+    align-content: space-between
+  &.#{$prefix}#{$axisB}-around
+    align-content: space-around
+
+=flexDisplay()
+  .r, .r-no, .c, .c-no
+    display: flex
+  .r
+    flex-wrap: wrap
+    flex-direction: row
+  .r-no
+    flex-wrap: nowrap
+    flex-direction: row
+  .c
+    flex-wrap: wrap
+    flex-direction: column
+  .c-no
+    flex-wrap: nowrap
+    flex-direction: column
+
+=alignSelf($prefix: null)
+  .#{$prefix}start
+    align-self: start
+  .#{$prefix}center
+    align-self: center
+  .#{$prefix}end
+    align-self: flex-end
