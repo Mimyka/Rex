@@ -1,16 +1,30 @@
 @import 'var'
+@import 'flexClass'
 @import 'grid'
-@import 'flexGrid'
-@import 'responsiveFlexGrid'
-
+@import 'responsiveGrid'
 
 *, *:after, *:before
   box-sizing: border-box
 
-+grid()
+.r, .r-no, .c, .c-no
+  display: flex
+.r
+  flex-wrap: wrap
+  flex-direction: row
+.r-no
+  flex-wrap: nowrap
+  flex-direction: row
+.c
+  flex-wrap: wrap
+  flex-direction: column
+.c-no
+  flex-wrap: nowrap
+  flex-direction: column
 .r, .r-no
   +axis(x,y)
 .c, .c-no
   +axis(y,x)
-+flexDisplay()
-+responsiveFlexGrid()
+
+
++grid()
++responsiveGrid()

@@ -23,22 +23,6 @@
   &.#{$prefix}#{$axisB}-around
     align-content: space-around
 
-=flexDisplay()
-  .r, .r-no, .c, .c-no
-    display: flex
-  .r
-    flex-wrap: wrap
-    flex-direction: row
-  .r-no
-    flex-wrap: nowrap
-    flex-direction: row
-  .c
-    flex-wrap: wrap
-    flex-direction: column
-  .c-no
-    flex-wrap: nowrap
-    flex-direction: column
-
 =alignSelf($prefix: null)
   .#{$prefix}start
     align-self: start
