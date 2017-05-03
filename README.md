@@ -34,7 +34,7 @@ Il a été conçu pour être léger et coder beaucoup plus rapidement.
 
 * Mobile first
 
-* Un poids léger (18.7ko minifié)
+* Un poids léger (18.9ko minifié)
 
 * Utilisant la technologie moderne qu'est le Flexbox
 
