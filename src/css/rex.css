@@ -68,6 +68,15 @@
 .c.x-around, .c-no.x-around {
   align-content: space-around; }
 
+.start {
+  align-self: start; }
+
+.center {
+  align-self: center; }
+
+.end {
+  align-self: flex-end; }
+
 .u {
   flex: 1 1 0%; }
 

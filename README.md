@@ -34,7 +34,7 @@ Il a été conçu pour être léger et coder beaucoup plus rapidement.
 
 * Mobile first
 
-* Un poids léger (18.7ko minifié)
+* Un poids léger (18.9ko minifié)
 
 * Utilisant la technologie moderne qu'est le Flexbox
 
@@ -42,6 +42,8 @@ Il a été conçu pour être léger et coder beaucoup plus rapidement.
 
 Fichiers
 --------
+
+* `/rex.min.css`: Le framework, minifié, avec préfixes vendeurs, destiné à la production.
 
 Les fichiers dans le dossier src (source) sont destinés au développement.
 
@@ -52,10 +54,6 @@ Les fichiers dans le dossier src (source) sont destinés au développement.
 * `/src/sass/var.sass`: Peut être utilisé pour personnaliser le nombre de colonnes, les breakpoints, les préfixes responsive.
 
 * `/src/sass/_*.sass`: Tout les fichiers importés dans rex.sass, entre autres le système de grid.
-
-Les fichiers dans le dossier css sont destinés à ceux voulant utiliser Rex.
-
-* `/rex.min.css`: Le framework, minifié, avec préfixes vendeurs, destiné à la production.
 
 Documentation
 -------------
