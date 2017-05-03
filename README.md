@@ -18,7 +18,7 @@ Et vous pouvez aussi utiliser ce CDN:
 <link rel="stylesheet" href="https://cdn.rawgit.com/Mimyka/Rex/master/css/rex.min.css">
 ```
 
-[ici]: https://github.com/Mimyka/Rex/blob/master/css/rex.min.css
+[ici]: https://github.com/Mimyka/Rex/blob/master/rex.min.css
 
 Caractéristiques
 ----------------
@@ -55,10 +55,7 @@ Les fichiers dans le dossier src (source) sont destinés au développement.
 
 Les fichiers dans le dossier css sont destinés à ceux voulant utiliser Rex.
 
-* `/css/rex.css`: Le framework, avec les prefixes vendeurs pour assurer plus de compatibilité.
-A également subit quelques optimisation pour la taille. 
-
-* `/css/rex.min.css`: Le framework, minifié, destiné à la production.
+* `/rex.min.css`: Le framework, minifié, avec préfixes vendeurs, destiné à la production.
 
 Documentation
 -------------
