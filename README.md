@@ -15,7 +15,7 @@ $ git clone https://github.com/Mimyka/Rex.git
 Et vous pouvez aussi utiliser ce CDN:
 
 ``` html
-<link rel="stylesheet" href="https://cdn.rawgit.com/Mimyka/Rex/master/rex.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/Mimyka/Rex/0.1.2/rex.min.css">
 ```
 
 [ici]: https://github.com/Mimyka/Rex/blob/master/rex.min.css
